@@ -14,9 +14,13 @@ The script will output a new .CSV file with the format [explained here](https://
 
 1. Clone repository and place the script wherever you want.
 
-2. In commandline, do:
-`$ cd /path/to/script && python format.py <filename.csv> "<template_name>"`
-Notice that you should create a template page with the same name in the mediawiki instance for the data to appear readable. You can create this template page before or after importing the csv with DataTransfer.
+2. In command line, do:
 
-3. The formatted csv file will be UTF-16 encoded, because DataTransfer extension will not render special characters if you use UTF-8.
+`$ cd /path/to/script && python format.py <filename.csv> "<template_name>"`
+
+### <template_name>
+You should create a template page with the same name in the mediawiki instance for the data to appear readable. You can create this template page before or after importing the csv with DataTransfer.
+
+### Import using UTF-16
+The formatted csv file will be UTF-16 encoded, because DataTransfer extension will not render special characters if you use UTF-8.
 
