@@ -22,5 +22,5 @@ The script will output a new .CSV file with the format [explained here](https://
 You should create a template page with the same name in the mediawiki instance for the data to appear readable. You can create this template page before or after importing the csv with DataTransfer.
 
 ### Import using UTF-16
-The formatted csv file will be UTF-16 encoded, because DataTransfer extension will not render special characters if you use UTF-8.
+The formatted csv file will be UTF-16 encoded, because of some DataTransfer limitation, it will not render special characters if you use UTF-8.
 
