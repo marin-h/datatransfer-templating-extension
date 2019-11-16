@@ -5,12 +5,10 @@
 [![datatransfer](https://img.shields.io/badge/works%20with-datatransfer-green)](https://www.mediawiki.org/wiki/Extension:Data_Transfer)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
  
-A simple script for formatting a google spreadsheet .csv raw file into a mediawiki compatible csv.
+A simple script for pre processing .CSV files when importing content in [Mediawiki](https://www.mediawiki.org) with [DataTransfer](https://www.mediawiki.org/wiki/Extension:Data_Transfer).
 Important: this script is tested and mantained only to work with google spreadsheet .CSV files.
 
-[DataTransfer](https://www.mediawiki.org/wiki/Extension:Data_Transfer) is a [Mediawiki](https://www.mediawiki.org) extension for importing csv files as mediawiki pages. 
-
-This script allows the user to get their data in a DataTransfer-ready formatted csv, as it is explained [here](https://www.mediawiki.org/wiki/Extension:Data_Transfer#Importing_CSV_files).
+The script will output a new .CSV file with the format [explained here](https://www.mediawiki.org/wiki/Extension:Data_Transfer#Importing_CSV_files).
 
 ## Usage
 
